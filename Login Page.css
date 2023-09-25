@@ -197,3 +197,13 @@ body{
     outline: none;
     cursor: pointer;
 }
+.table-row td {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    padding: 12px 24px;
+}
+.table-row, .order-list-table th {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
