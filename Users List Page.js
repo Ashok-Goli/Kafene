@@ -44,7 +44,7 @@ $(document).ready(function () {
                 $('#table-body tr').css('display','')
             } else {
                 $.get(`https://5fc1a1c9cb4d020016fe6b07.mockapi.io/api/v1/users?fullName=${searchValue}`,
-                    function (data, textStatus, jqXHR) {
+                    function () {
 
                         let tablebody = document.getElementById('table-body');
                         let tr = tablebody.getElementsByTagName('tr');
