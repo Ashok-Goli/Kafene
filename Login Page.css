@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f7fb;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+.logo img{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+.logo p{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.haeder-left-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+.nav-items.active{
+    color: #20b883;
+    padding-bottom: 22px;
+    border-bottom: 3px solid #20b883;
+}
+
+#loginform-wrapper{
+    margin-top: 150px;
+}
+.Loginform{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+.Loginform h1{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+.username{
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+.login-btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.filter-option input{
+    border-radius: 24px;
+}
+
+
+/* Order List Pages and Product List Page */
+
+.main-div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    margin-top: 100px;
+}
+.sub-div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+.filter-content-div{
+    width: 180px
+}
+.filter-content{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    margin: 6px 0;
+    cursor: pointer;
+}
+.content input{
+    margin-right: 12px;
+}
+.filter-content p{
+    margin:24px 0px ;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr{
+    vertical-align: middle;
+}
+.table th{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.table td{
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.secondary-text{
+    color: #8c8c8c
+}
+.primary-text{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
+
+/* Users Page List */
+
+.userlist-form{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin: 45px 0px;
+}
+.userlist-searchbox{
+    width: calc(100% - 100px);
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin: 0 36px 0 0;
+    outline: none;
+}
+.userlist-reset-btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
